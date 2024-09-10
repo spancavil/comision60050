@@ -1,0 +1,2 @@
+React with Webpack (solo para los osados) => https://saurabhnativeblog.medium.com/react30-project23-setting-up-a-react-project-using-webpack-and-babel-f4ca5554dfec
+JS concepts => https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react/amp/ => JS Basic concepts
