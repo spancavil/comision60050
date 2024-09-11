@@ -1,0 +1,4 @@
+Funcionamiento React (ver hasta fiber) => https://eduardofierro.pro/blog/reactjs-explicado-virtual-dom-fiber-tree-y-la-mecanica-del-ui-virtual/
+JS concepts => https://www-freecodecamp-org.cdn.ampproject.org/c/s/www.freecodecamp.org/news/top-javascript-concepts-to-know-before-learning-react/amp/
+Por qué utilizar vite => https://es.vitejs.dev/guide/why
+Getting started with Vite => https://vitejs.dev/guide/

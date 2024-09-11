@@ -1,0 +1,3 @@
+Para que pueda ser ejecutado en el navegador nuestro código, es necesario primero que sea empaquetado, es decir traducido a código nativo.
+1) A diferencia de utilizar un empaquetador solo como webpack, vite empaqueta dependencias a código nativo de 10 a 100 veces más rápido usando una herramienta llamada esbuild.
+2) Y por otro lado solo transforma y sirve código fuente a petición según solicite el navegador, basado además en rutas y módulos. Es decir los empaquetadores tradicionales empaquetan TODO el código fuente y suele haber muchas demoras, mientras que Vite además que empaqueta mucho más rápido, lo hace según lo requiera la vista en pantalla.
