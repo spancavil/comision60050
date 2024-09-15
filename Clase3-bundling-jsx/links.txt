@@ -1,0 +1,2 @@
+Retrocompatibilidad => https://en.wikipedia.org/wiki/Backward_compatibility
+Vite by Evan You (creator of Vite) => https://www.youtube.com/watch?v=DkGV5F4XnfQ

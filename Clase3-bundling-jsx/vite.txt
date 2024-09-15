@@ -1,0 +1,16 @@
+Vite
+
+Qué es?
+"Vite" es rápido en francés. Es una herramienta para construir. Viene con un server de desarrollo y también empaqueta el código para producción.
+
+Qué viene a resolver?
+El loop de desarrollo. Cuando escala mucho la app, realmente el empaquetado se vuelve muy lento, dado que hay que empaquetar la app en su conjunto y puede demorar mucho tiempo para gran cantidad de archivos.
+
+Funcionamiento
+Entonces Vite trabaja con módulos de ES en forma nativa. Vite envía módulos mediante HTTP a medida que se va requiriendo, y el servidor de desarrollo sirve estos archivos, entonces el trabajo queda relegado al browser. Esto mejora notablemente el tiempo de arranque del server de Vite.
+
+Dependencias
+Vite además utiliza ESBuild. Esta herramienta "preempaqueta" las dependencias del proyecto (por ejemplo react, react-dom) para reducir el numero de peticiones que tiene que hacer el browser, mejorando mucho el tiempo de respuesta. Está escrita en Go y es mucho más rápida que webpack por ejemplo.
+
+Hot Reloading
+Cuando hacemos algún cambio en algun archivo puntual, no se REFRESCA la página y vemos solo el cambio puntual. Por ejemplo modificamos un estilo en el css y se ve reflejado automáticamente
