@@ -18,6 +18,17 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.container {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: aquamarine;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
