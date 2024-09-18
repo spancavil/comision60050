@@ -1,3 +1,4 @@
+1. Cleanup project
 1. Component Greeting
 2. Prop message
 3. Count state (hover)
