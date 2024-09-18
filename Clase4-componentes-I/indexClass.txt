@@ -1,0 +1,5 @@
+1. Component Greeting
+2. Prop message
+3. Count state (hover)
+4. Componentize NavBar
+5. Add cart icon
