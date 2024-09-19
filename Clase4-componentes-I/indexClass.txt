@@ -1,6 +1,6 @@
 1. Cleanup project
-1. Component Greeting
-2. Prop message
-3. Count state (hover)
-4. Componentize NavBar
-5. Add cart icon
+2. Component Greeting
+3. Prop message
+4. Count state (hover)
+5. Componentize NavBar
+6. Add cart icon
