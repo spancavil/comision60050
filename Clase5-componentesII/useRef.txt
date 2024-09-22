@@ -1,0 +1,11 @@
+CASOS DE USO
+------------
+1. Utilizamos useRef cuando necesitamos almacenar un valor que NO será utilizado en los render.
+2. Ademas utilizamos este hook cuando queremos acceder a un elemento del DOM y ejecutar alguna función específica (por ejemplo el focus de un input, o el play de un video).
+3. En nuestro proyecto final no es requerido.
+
+CARACTERISTICAS PRINCIPALES
+---------------------------
+1. A diferencia del useState, se puede "mutar" o cambiar la propiedad ref.current.
+2. Cuando se cambia la ref.current no se renderiza nuevamente el componente. Es básicamente un objeto plano de JS.
+3. Durante el re-rendering el valor current no se resetea (queda almacenado durante todo el ciclo de vida del componente, a diferencia de una variable normal que si se resetea)

@@ -1,0 +1,6 @@
+1. Children (Layout component).
+2. Ciclo de vida de componentes (CounterWithState)
+3. Break
+4. useRef (ver counterwithref e inputwithref)
+5. Quizz
+6. Actividad button con counter
