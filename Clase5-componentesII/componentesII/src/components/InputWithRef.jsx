@@ -13,7 +13,7 @@ const InputWithRef = () => {
 
     useEffect(() => {
         inputRef2.current.focus()
-    })
+    }, [])
 
     const handleClick = () => {
         console.log(inputRef.current)

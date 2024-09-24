@@ -2,7 +2,9 @@ import React, { useEffect, useRef } from "react"
 
 const CounterWithRef = () => {
 
+    //Inicializando una referencia
     const refCount = useRef(0)
+
     useEffect(()=> {
         console.log("Se monta el componente");
         
@@ -10,10 +12,9 @@ const CounterWithRef = () => {
 
     const addCount = () => {
         //Observar que es mutable la referencia
-        refCount.current += 1
+        refCount.current += 1 //refCount.current = refCount.current + 1
         //A diferencia del ejemplo anterior, cada vez que actualizamos el current tenemos acceso instantáneo al valor actualizado!
         console.log({refCount});
-        
     }
 
     console.log(refCount)
