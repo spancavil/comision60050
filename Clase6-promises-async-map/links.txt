@@ -1,0 +1,2 @@
+Generación de datos json => https://www.mockaroo.com/
+Callstack y orden de ejecución => https://www.youtube.com/watch?v=eiC58R16hb8&list=LL&index=1

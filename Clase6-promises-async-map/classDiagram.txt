@@ -1,0 +1,6 @@
+1. Construccion de promesas
+2. setTimeout
+3. orden de ejecución
+4. Break
+5. Map con ejemplo sencillo
+6. Ver desafío con ItemListContainer => ItemList => Item
