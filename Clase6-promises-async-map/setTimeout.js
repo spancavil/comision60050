@@ -1,5 +1,6 @@
-const timeoutCallback = () => {
+const callback = () => {
     console.log("Hola");    
 }
 
-setTimeout(timeoutCallback, 200)
+//Pasan 200 ms y se ejecuta la función timeoutCallback
+setTimeout(callback, 4000)

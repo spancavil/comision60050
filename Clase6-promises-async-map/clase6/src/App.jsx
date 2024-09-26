@@ -1,7 +1,10 @@
+import ItemListContainer from "./components/ItemListContainer"
+
 function App() {
-    //La data es generada con mockaroo
+    
     return (
         <div>
+            <ItemListContainer/>
         </div>
     )
 }
