@@ -1,0 +1,10 @@
+https://es.wikipedia.org/wiki/Transferencia_de_Estado_Representacional => arquitectura REST
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin => Access Control Allow origin
+https://www.javatpoint.com/uri-vs-url => Diferencias URI y URL
+https://www.youtube.com/watch?v=YfN9hElekuM => CORS explicado en castellano
+
+APIS
+https://rickandmortyapi.com/documentation => Rick and Morty
+https://github.com/public-apis/ => Listado de API's publicas
+https://fakestoreapi.com/docs => Fakestore API
+https://jsonplaceholder.typicode.com/guide/ => JSON placeholder
