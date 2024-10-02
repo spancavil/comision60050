@@ -1,0 +1,4 @@
+JSDocs => https://medium.com/@bobjunior542/document-your-react-code-with-jsdoc-best-practices-and-tips-32bf6b92b91f
+Custom Hooks => https://www.youtube.com/watch?v=I2Bgi0Qcdvc
+Render props => https://www.youtube.com/watch?v=98eEGDVNEqk
+Render props examples => https://www.patterns.dev/react/render-props-pattern/

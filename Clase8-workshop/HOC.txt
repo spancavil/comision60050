@@ -1,0 +1,14 @@
+Declaramos un High Order Component cuando necesitamos añadir una funcionalidad adicional a más de un componente y no queremos repetir el código de dicha funcionalidad.
+
+Hay unos cuantos casos de uso:
+    - Podemos aplicar un HOC cuando necesitamos implementar autenticación y autorización. Un HOC puede proteger ciertas rutas y componentes asegurándose que sólo los usuarios autenticados tengan acceso.
+
+    - Podemos hacer DATA FETCHING, además de hacerlo con un custom hook como vimos.
+
+    - Un HOC puede añadir estilos y ciertos "themes" a nuestros componentes.
+
+    - Logging y analítica. Podemos implementar logging, error tracking y analíticas.
+
+    - Internacionalización: un HOC puede pasar contenidos traducidos o preferencias de lenguaje.
+
+Todo esto hace al código más modular, reutilizable y mantenible.

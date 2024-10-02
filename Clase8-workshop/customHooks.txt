@@ -1,0 +1,4 @@
+Son combinaciones de hooks de React que nos aportan funcionalidades adicionales
+y mejoran mucho la legibilidad y escalabilidad de los componentes.
+
+Es como un subset de componentes que no retornan JSX, en su lugar suelen retornar estados o referencias que han sido procesados siguiendo una lógica determinada.
