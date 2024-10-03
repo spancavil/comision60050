@@ -7,16 +7,20 @@ const FormWithValidationBad = () => {
         email: "",
     })
 
-    /* const [errors, setErrors] = useState({})
+    const [errors, setErrors] = useState({})
 
     function validateForm() {
+        //Variable auxiliar
         const newErrors = {}
-        if (!props.formData.name) {
+        if (!formData.name) {
             newErrors.name = "El usuario es requerido"
         }
 
+        // Error en caso que formData.name esté vacio
+        //{name: "El usuario es requerido"}
+
         setErrors(newErrors)
-    } */
+    }
 
     function handleChange(event) {
         setFormData({
@@ -27,6 +31,8 @@ const FormWithValidationBad = () => {
 
     return (
         <Form
+            validateForm={validateForm}
+            errors={errors}
             formData={formData}
             onChange={handleChange}
         />

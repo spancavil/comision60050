@@ -11,7 +11,14 @@ const useFetch = (url) => {
     const [error, setError] = useState(null)
 
     useEffect(() => {
-        (async () => {
+        
+        //IIFE
+        /* (async () => {
+            ...la funcion
+            })()
+ */
+
+        const getData = async () => {
             setLoading(true)
             setError(null)
             try {
@@ -24,9 +31,11 @@ const useFetch = (url) => {
             } finally {
                 setLoading (false)
             }
-        })()
+        }
+        getData()
     }, [])
 
+    //En lugar de retornar un JSX retorna un objeto con todos los estados
     return {loading, data, error}
 }
 

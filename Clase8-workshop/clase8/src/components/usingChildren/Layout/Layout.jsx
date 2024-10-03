@@ -6,10 +6,11 @@ import styles from '../../../styles/layout.module.scss'
 const Layout = ({ children }) => {
     return (
         <>
-            {/* <NavBar/>
+            <NavBar/>
             <div className = {styles['main-container']}>
+                {children}
             </div>
-            <Footer/> */}
+            <Footer/>
         </>
     )
 }

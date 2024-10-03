@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import withFormValidation from "./withFormValidation"
 import Form from "./Form"
 
+//Es el Form envuelto con la nueva funcionalidad de validación
 const FormWithValidation = withFormValidation(Form)
 
 const HocContainer = () => {

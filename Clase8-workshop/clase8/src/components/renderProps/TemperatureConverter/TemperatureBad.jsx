@@ -1,13 +1,14 @@
 import React, { useState } from "react"
 
 function Kelvin({ value = 0 }) {
-    return <div className="temp">{value + 273.15}K</div>
+    return <div className="temp">{Number(value) + 273.15}K</div>
 }
 
 function Fahrenheit({ value = 0 }) {
-    return <div className="temp">{(value * 9) / 5 + 32}°F</div>
+    return <div className="temp">{(Number(value) * 9) / 5 + 32}°F</div>
 }
 
+//T en grados celsius
 function Input({ value, handleChange }) {
     return (
         <input value={value} onChange={(e) => handleChange(e.target.value)} />
@@ -22,6 +23,7 @@ Aquí es cuando entran las render props!
 */
 
 function TemperatureBad() {
+    //value => la temp en °C
     const [value, setValue] = useState("")
     return (
         <div className="App">
