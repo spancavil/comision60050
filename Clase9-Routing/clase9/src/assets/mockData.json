@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "title": "Oppo N1",
+        "description": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et",
+        "price": 49.4,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 2,
+        "title": "Samsung B110",
+        "description": "nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta",
+        "price": 1.8,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 3,
+        "title": "QMobile Noir i7",
+        "description": "sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl",
+        "price": 67.7,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 4,
+        "title": "Samsung P200",
+        "description": "tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac",
+        "price": 21.2,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 5,
+        "title": "Lenovo Tab3 10",
+        "description": "nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros",
+        "price": 61.5,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 6,
+        "title": "Oppo F5 Youth",
+        "description": "orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula",
+        "price": 77.4,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 7,
+        "title": "Asus Zenfone Zoom ZX551ML",
+        "description": "suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu",
+        "price": 50.7,
+        "pictureUrl": "http://dummyimage.com/300x300.png/ff4444/ffffff"
+    },
+    {
+        "id": 8,
+        "title": "Eten P700",
+        "description": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales",
+        "price": 70.3,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 9,
+        "title": "alcatel Pop C7",
+        "description": "at velit vivamus vel nulla eget eros elementum pellentesque quisque porta",
+        "price": 23.7,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 10,
+        "title": "Samsung Galaxy Pop Plus S5570i",
+        "description": "praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla",
+        "price": 74.8,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 11,
+        "title": "LG GT950 Arena",
+        "description": "augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in",
+        "price": 52.6,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 12,
+        "title": "Sharp Aquos R2",
+        "description": "sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer",
+        "price": 65.0,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 13,
+        "title": "Nokia X2-00",
+        "description": "sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula",
+        "price": 49.2,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 14,
+        "title": "BlackBerry Q10",
+        "description": "amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu",
+        "price": 36.9,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 15,
+        "title": "HTC Aria",
+        "description": "morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque",
+        "price": 12.3,
+        "pictureUrl": "http://dummyimage.com/300x300.png/ff4444/ffffff"
+    },
+    {
+        "id": 16,
+        "title": "OnePlus 7 Pro",
+        "description": "potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
+        "price": 21.7,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 17,
+        "title": "Asus Zenfone 7 Pro",
+        "description": "sem fusce consequat nulla nisl nunc nisl duis bibendum felis",
+        "price": 58.5,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 18,
+        "title": "Xiaomi Mi 9T Pro",
+        "description": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean",
+        "price": 1.8,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 19,
+        "title": "LG GB109",
+        "description": "vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel",
+        "price": 63.1,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 20,
+        "title": "Motorola cd930",
+        "description": "habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida",
+        "price": 50.1,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 21,
+        "title": "LG Optimus Chat C550",
+        "description": "diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis",
+        "price": 56.7,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 22,
+        "title": "Lenovo Z5",
+        "description": "arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis",
+        "price": 3.2,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 23,
+        "title": "Posh Pegasus Plus C351",
+        "description": "leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat",
+        "price": 51.0,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 24,
+        "title": "Motorola DROID RAZR MAXX HD",
+        "description": "commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi",
+        "price": 20.8,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 25,
+        "title": "Motorola ATRIX HD MB886",
+        "description": "donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam",
+        "price": 38.0,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 26,
+        "title": "Dell Venue 8",
+        "description": "integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel",
+        "price": 34.0,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 27,
+        "title": "Samsung Galaxy Tab Active",
+        "description": "ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam",
+        "price": 53.7,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    },
+    {
+        "id": 28,
+        "title": "Samsung Galaxy J4+",
+        "description": "habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam",
+        "price": 69.9,
+        "pictureUrl": "http://dummyimage.com/300x300.png/dddddd/000000"
+    },
+    {
+        "id": 29,
+        "title": "Samsung Galaxy Tab T-Mobile T849",
+        "description": "rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia",
+        "price": 41.6,
+        "pictureUrl": "http://dummyimage.com/300x300.png/5fa2dd/ffffff"
+    },
+    {
+        "id": 30,
+        "title": "Lava A71",
+        "description": "donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien",
+        "price": 79.9,
+        "pictureUrl": "http://dummyimage.com/300x300.png/cc0000/ffffff"
+    }
+]
