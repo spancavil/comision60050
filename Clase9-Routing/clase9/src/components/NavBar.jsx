@@ -1,29 +1,40 @@
 import React from "react"
 import styles from "../styles/navbar.module.scss"
+import { Link, NavLink } from "react-router-dom"
 
 const NavBar = () => {
     return (
         <nav>
             <ul className={styles.list}>
                 <li>
-                    <a className={styles.notActive} href="#contact">
+                    <NavLink
+                        className={ ({ isActive }) => {
+                            return isActive ? styles.isActive : styles.notActive
+                        }}
+                        to={"/"}
+                    >
                         Home
-                    </a>
+                    </NavLink>
                 </li>
                 <li>
-                    <a className={styles.notActive} href="#contact">
-                        Products
-                    </a>
+                    <NavLink
+                        className={ ({ isActive }) => {
+                            return isActive ? styles.isActive : styles.notActive
+                        }}
+                        to={"/category/jewelery"}
+                    >
+                        Jewelery
+                    </NavLink>
                 </li>
                 <li>
-                    <a className={styles.notActive} href="#contact">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a className={styles.notActive} href="#about">
-                        About
-                    </a>
+                    <NavLink
+                        className={ ({ isActive }) => {
+                            return isActive ? styles.isActive : styles.notActive
+                        }}
+                        to={"/category/electronics"}
+                    >
+                        Electronics
+                    </NavLink>
                 </li>
             </ul>
         </nav>

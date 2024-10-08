@@ -1,16 +1,21 @@
-import { useState } from 'react'
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import ItemListContainer from './components/ItemListContainer'
 import Layout from './components/Layout'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NotFound from './components/NotFound'
 import ItemDetailContainer from './components/ItemDetailContainer'
-
 function App() {
 
   return (
+    <BrowserRouter>
       <Layout>
-        <h2>Bienvenidos a la clase 9</h2>
+        <Routes>
+          <Route path = "/" element = {<ItemListContainer/>}/>
+          <Route path = "/category/:categoryId" element={<ItemListContainer/>}/>
+          <Route path = "/detail/:id" element={<ItemDetailContainer/>}/>
+          <Route path = "*" element = {<NotFound/>}/>
+        </Routes>
       </Layout>
+    </BrowserRouter>
   )
 }
 

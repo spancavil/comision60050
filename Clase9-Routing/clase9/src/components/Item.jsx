@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/item.module.scss'
+import { NavLink } from 'react-router-dom'
 /*
     {
         "id": 21,
@@ -16,6 +17,9 @@ const Item = ({item}) => {
         <h2>{item.title}</h2>
         <span>{item.description}</span>
         <span>${item.price}</span>
+        <NavLink to={`/detail/${item.id}`}>
+          <button>Detail</button>
+        </NavLink>
     </div>
   )
 }
