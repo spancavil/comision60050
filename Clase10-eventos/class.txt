@@ -1,0 +1,8 @@
+1. view on click => como llamarlo, como NO llamarlo y pasarle parámetros.
+2. Formulario, inputs controlados, envío de forms.
+3. Eventos con prevent default y stop propagation.
+BREAK
+4. Evento con window (capturar resize). Ver limpieza de eventos y conexión con unmount.
+5. Evento con tecla escape para el cierre de un modal.
+6. Ver desafío.
+
