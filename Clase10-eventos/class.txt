@@ -5,4 +5,3 @@ BREAK
 4. Evento con window (capturar resize). Ver limpieza de eventos y conexión con unmount.
 5. Evento con tecla escape para el cierre de un modal.
 6. Ver desafío.
-
