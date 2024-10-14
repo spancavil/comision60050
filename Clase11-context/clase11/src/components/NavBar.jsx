@@ -1,16 +1,14 @@
-import React, { useState } from "react"
+import React from "react"
 import styles from "../styles/navbar.module.scss"
-import { Link, NavLink } from "react-router-dom"
-import Switch from "./Switch"
+import { NavLink } from "react-router-dom"
 
 const NavBar = () => {
-    
     return (
         <nav>
             <ul className={styles.list}>
                 <li>
                     <NavLink
-                        className={ ({ isActive }) => {
+                        className={({ isActive }) => {
                             return isActive ? styles.isActive : styles.notActive
                         }}
                         to={"/"}
@@ -20,7 +18,7 @@ const NavBar = () => {
                 </li>
                 <li>
                     <NavLink
-                        className={ ({ isActive }) => {
+                        className={({ isActive }) => {
                             return isActive ? styles.isActive : styles.notActive
                         }}
                         to={"/category/jewelery"}
@@ -30,7 +28,7 @@ const NavBar = () => {
                 </li>
                 <li>
                     <NavLink
-                        className={ ({ isActive }) => {
+                        className={({ isActive }) => {
                             return isActive ? styles.isActive : styles.notActive
                         }}
                         to={"/category/electronics"}

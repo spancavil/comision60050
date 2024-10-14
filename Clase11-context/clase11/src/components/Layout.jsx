@@ -1,19 +1,15 @@
-import React, { useContext } from "react"
 import NavBar from "./NavBar"
 import Footer from "./Footer"
-import styles from '../styles/layout.module.scss'
-import { Theme } from "../context/ThemeProvider"
+import styles from "../styles/layout.module.scss"
 
 const Layout = ({ children }) => {
-    const {theme} = useContext(Theme)
-    
+    const theme = "light"
+
     return (
         <>
-            <NavBar/>
-            <div className = {styles[`main-container-${theme}`]}>
-                {children}
-            </div>
-            <Footer/>
+            <NavBar />
+            <div className={styles[`main-container-${theme}`]}>{children}</div>
+            <Footer />
         </>
     )
 }
