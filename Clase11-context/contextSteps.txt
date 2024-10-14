@@ -1,0 +1,6 @@
+Pasos para creación de un contexto dinámico
+
+1. Crear el context en su carpeta correspondiente.
+2. Cada contexto representa una funcionalidad (theme, cart, auth, etc)
+3. Envolver a los componentes consumidores del context en el contexto creado.
+4. Utilizar el contexto dentro de los componentes consumidores que uno quiera.
