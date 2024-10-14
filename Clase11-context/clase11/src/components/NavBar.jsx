@@ -1,8 +1,10 @@
-import React from "react"
+import React, { useState } from "react"
 import styles from "../styles/navbar.module.scss"
 import { Link, NavLink } from "react-router-dom"
+import Switch from "./Switch"
 
 const NavBar = () => {
+    
     return (
         <nav>
             <ul className={styles.list}>
