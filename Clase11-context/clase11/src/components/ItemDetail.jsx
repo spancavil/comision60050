@@ -1,13 +1,16 @@
-import React, { useState } from "react"
+import React, { useState, useContext } from "react"
 import ItemCount from "./ItemCount"
+import { Cart } from "../context/CartProvider"
 
 const ItemDetail = ({ product }) => {
+    const {addCart} = useContext(Cart)
     const [itemCountVisibility, setItemCountVisibility] = useState(true)
     console.log(product)
 
     const handleCart = (quantity) => {
         console.log(quantity)
         setItemCountVisibility(false)
+        addCart(product, 1)
     }
 
     return (

@@ -5,10 +5,12 @@ import { useParams } from "react-router-dom"
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null)
+    const {id} = useParams()
 
     useEffect(() => {
-        setProduct(products[0])
-    }, [])
+        const productFound = products.find(product => product.id === Number(id))
+        setProduct(productFound)
+    }, [id])
 
     return product && <ItemDetail product={product}/>
 }
