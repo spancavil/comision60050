@@ -1,0 +1,5 @@
+React spinners => https://www.davidhu.io/react-spinners/storybook/?path=/docs/clockloader--docs
+
+documentación useMemo => https://es.react.dev/reference/react/useMemo
+
+useMemo => https://www.youtube.com/watch?v=vpE9I_eqHdM

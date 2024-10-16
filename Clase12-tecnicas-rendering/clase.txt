@@ -1,0 +1,12 @@
+1. ExampleLoading
+2. Return temprano (con if)
+3. InlineReturnCon&&
+4. InlineReturnConTernary
+5. ConditionalStyling: modificar algun estilo en línea en base a una condición.
+6. ConditionalClass
+7. AdditionalStyles
+
+BREAK
+
+8. DemoMemo
+

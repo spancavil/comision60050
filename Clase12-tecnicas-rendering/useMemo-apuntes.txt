@@ -1,0 +1,5 @@
+Es un hook que me permite memoizar un valor, sin tener que recomputarlo. A menos que cambie algún valor del cual depende.
+
+useCallBack es EXACTAMENTE LO MISMO que useMemo, con la unica diferencia que no hay que escribir una función anidada adicional y sirve para funciones, mientras que useMemo es para memoizar valores.
+
+Finalmente "memo" a secas es para memoizar componentes enteros que sabemos que sus props no cambian. Esto hará que un componente memoizado no se vuelva a renderizar a menos que cambie alguna de sus  props.
