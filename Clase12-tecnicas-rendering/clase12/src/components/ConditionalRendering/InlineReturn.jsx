@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react"
 
-const InlineReturn = () => {
-  return (
-    <div>InlineReturn</div>
-  )
+const InlineReturn = ({ condition }) => {
+    return (
+        <div>
+            {condition && <span>La condicion es verdadera</span>}
+
+            {!condition && <span>La condicion es falsa</span> }
+        </div>
+    )
 }
 
 export default InlineReturn

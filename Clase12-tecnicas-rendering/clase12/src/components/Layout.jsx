@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
 
     return (
         <>
-            <NavBar />
+            {/* <NavBar /> */}
             <div
                 className={styles[`main-container-${dark ? "dark" : "light"}`]}
             >

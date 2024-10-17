@@ -5,31 +5,22 @@ import NotFound from "./components/NotFound"
 import ItemDetailContainer from "./components/ItemDetailContainer"
 import ThemeProvider from "./context/ThemeProvider"
 import CartProvider from "./context/CartProvider"
+import ExampleLoading from "./components/ConditionalRendering/ExampleLoading"
+import ReturnTemprano from "./components/ConditionalRendering/ReturnTemprano"
+import InlineReturn from "./components/ConditionalRendering/InlineReturn"
+import InlineReturnTernary from "./components/ConditionalRendering/InlineReturnTernary"
+import ConditionalStyling from "./components/ConditionalRendering/ConditionalStyling"
 import ConditionalClass from "./components/ConditionalRendering/ConditionalClass"
 import InputWithAdditionalStyles from "./components/ConditionalRendering/InputWithAdditionalStyles"
-import Loader from "./components/ConditionalRendering/Loader"
 import DemoMemo from "./components/Memo/DemoMemo"
 
 function App() {
     return (
         <CartProvider>
             <ThemeProvider>
-                <BrowserRouter>
-                    <Layout>
-                        <Routes>
-                            <Route path="/" element={ <DemoMemo/>}/>
-                            <Route
-                                path="/category/:categoryId"
-                                element={<ItemListContainer />}
-                            />
-                            <Route
-                                path="/detail/:id"
-                                element={<ItemDetailContainer />}
-                            />
-                            <Route path="*" element={<NotFound />} />
-                        </Routes>
-                    </Layout>
-                </BrowserRouter>
+                <Layout>
+                    <DemoMemo/>
+                </Layout>
             </ThemeProvider>
         </CartProvider>
     )

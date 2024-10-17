@@ -1,10 +1,10 @@
 import React, { memo, useEffect } from "react"
 
-const MemoizedComponent = () => {
+const MemoizedComponent = memo(() => {
     console.log("Memoized component render!")
 
-    return <div>MemoizedComponent</div>
+    return <h1>Memoized Component</h1>
 
-}
+})
 
 export default MemoizedComponent

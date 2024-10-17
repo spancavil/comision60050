@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react"
 
-const InlineReturnTernary = () => {
-  return (
-    <div>InlineReturnTernary</div>
-  )
+const InlineReturnTernary = ({ condition }) => {
+    return condition ? (
+        <span>La condicion es verdadera</span>
+    ) : (
+        null
+    )
 }
 
 export default InlineReturnTernary

@@ -1,8 +1,15 @@
 import React from 'react'
 
-const ReturnTemprano = () => {
+const ReturnTemprano = ({condition = false}) => {
+
+  if (condition) {
+    return (
+      <div>ReturnTemprano</div>
+    )
+  }
+
   return (
-    <div>ReturnTemprano</div>
+    <h2>Condition is not true</h2>
   )
 }
 

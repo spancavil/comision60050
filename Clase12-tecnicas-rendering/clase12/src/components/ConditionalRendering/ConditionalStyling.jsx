@@ -1,8 +1,10 @@
 import React from 'react'
 
-const ConditionalStyling = () => {
+const ConditionalStyling = (condition) => {
   return (
-    <div>ConditionalStyling</div>
+    <button style={{color: condition ? 'green' : 'red'}}>
+      Este button cambiara de estilos según una condicion
+    </button>
   )
 }
 
