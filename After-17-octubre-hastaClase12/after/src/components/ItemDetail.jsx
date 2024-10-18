@@ -1,9 +1,10 @@
 import React, { useState, useContext } from "react"
 import ItemCount from "./ItemCount"
 import { Cart } from "../context/CartProvider"
+import { NavLink } from "react-router-dom"
 
 const ItemDetail = ({ product }) => {
-    const {addCart} = useContext(Cart)
+    const { addCart } = useContext(Cart)
     const [itemCountVisibility, setItemCountVisibility] = useState(true)
     console.log(product)
 
@@ -22,7 +23,9 @@ const ItemDetail = ({ product }) => {
             {itemCountVisibility ? (
                 <ItemCount addCart={handleCart} />
             ) : (
-                <button>Go cart</button>
+                <button>
+                    <NavLink to={'/cart'}>Go cart</NavLink>
+                </button>
             )}
         </div>
     )

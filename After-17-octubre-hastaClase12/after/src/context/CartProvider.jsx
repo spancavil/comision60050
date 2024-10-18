@@ -22,6 +22,7 @@ const CartProvider = ({ children }) => {
                         quantity: cartProduct.quantity + productQuantity
                     }
                 }
+                return cartProduct
             })
         } else {
             cartUpdated.push({...product, quantity: productQuantity})
