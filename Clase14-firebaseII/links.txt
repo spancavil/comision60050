@@ -1,0 +1,4 @@
+addDoc => https://firebase.google.com/docs/firestore/manage-data/add-data#add_a_document
+updateDocument => https://firebase.google.com/docs/firestore/manage-data/add-data#update-data
+serverTimestamp => https://firebase.google.com/docs/firestore/manage-data/add-data#server_timestamp
+transactions => https://firebase.google.com/docs/firestore/manage-data/transactions#transactions
