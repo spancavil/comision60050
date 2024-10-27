@@ -1,0 +1,18 @@
+.cartItem {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr repeat(3, 0.5fr);
+    grid-column-gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+    text-align: left;
+    img {
+        padding-top: 20px;
+        width: 200px;
+    }
+    button {
+        height: 50px;
+    }
+    p{
+        text-align: center;
+    }
+}

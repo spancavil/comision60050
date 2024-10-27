@@ -1,0 +1,11 @@
+1. Presentación.
+2. Repasar requisitos proyecto.
+3. Ver posibilidades de mejora / generar todos.
+4. Documentación.
+5. Deploy.
+
+Break
+
+6. Presentaciones.
+7. Quizzes
+8. Foto y palabras finales
