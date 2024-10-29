@@ -1,1 +1,8 @@
+Pensar como mostrar un mensaje para cuando no se encuentre un producto
+CartWidget siempre se debe mostrar la cantidad de productos.
+Generar la vista del checkout (o un modal)
+Mostrar el ID de la orden generada (firebase)
+
+Opcional: una vez generada la orden, limpiar el cart
+
 Remover console.logs
